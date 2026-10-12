@@ -8,5 +8,8 @@ for i in range(n+1):
     else:
         odd+=i
 if even>odd:
-    print(f"the diff between the sum of even and odd is{}")
+    print(f"the diff between the sum of even and odd is{even-odd}")
+else:
+    print(f"the diff between the sum of even and odd is{odd- even}")
+
     
