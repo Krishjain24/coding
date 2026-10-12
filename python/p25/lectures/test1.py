@@ -67,3 +67,5 @@ while n!=0:
     elif 
     n=n//10
 print(check)
+
+#rgrhgt 
