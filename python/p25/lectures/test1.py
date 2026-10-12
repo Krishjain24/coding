@@ -57,15 +57,11 @@ else:
     print("not a palindrome")"""
     
 ##Q4.
-n=int(input("enter number:"))
-check=0
-second=0
+large=0
+large2=0
+n=int (input("enter the number:"))
 while n!=0:
     a=n%10
-    if a>check:
-        check=a
-    elif 
     n=n//10
-print(check)
 
-#rgrhgt 
+
