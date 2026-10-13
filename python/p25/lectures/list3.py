@@ -56,7 +56,13 @@ for i in range(n):
 """
 
 l=[1,2,3,3,2,1]
-for i in range(len(l)):
+n=len(l)
+for i in range(0,n//2):
+    if l[i]!=l[n-i-1]:
+        print()
+
+
+
 
 
 
