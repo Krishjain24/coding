@@ -44,7 +44,16 @@ for i in range(n):
         count+=1
 print(f"total numbers which contain the digit zero in last  are :{count}")
 """
-#m2- if zero is in somewhere in the number
+
+#m2-
+"""a=0
+n=int(input("enter your number:->"))
+for i in range(n+1):
+    i=str(i)
+    if i[-1]=="5":
+        a+=1
+print(f"total no ending with 5 are:{a}")"""
+#m3- if zero is in somewhere in the number
 #try 1
 """n=int(input("enter your number:->"))
 totalZero=0
@@ -57,15 +66,28 @@ print(f"the total zero in all enteries is:{totalZero}")
 """
 #try 2 ## by function
 
-##Que 5.->
+##que 5.:->
+a=0
+n=int(input("enter your number:->"))
+for i in range(n+1):
+    i=str(i)
+    if i[-1]=="5":
+        a+=1
+print(f"total no ending with 5 are:{a}")
+
+
+
+##Que 6.->
 ##method 1 . without using for loop vs
-"""n=int(input("enter your number:->"))
+"""
+n=int(input("enter your number:->"))
 l=len(str(n))
 n=str(n)
 if n[0]==n[l-1]:
     print("both are same ")
 else:
-    print("both are not same")"""
+    print("both are not same")
+"""
 
 #method 2.- 
 #by using the "map()" and the "*_" 
@@ -76,4 +98,3 @@ if f==l:
     print("same")
 else:
     print("not same")"""
-
