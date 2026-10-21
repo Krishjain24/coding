@@ -39,7 +39,7 @@ if found:
 else:
     print("Not Found")
 arr= [10,20,30,40,50]
-mn = len(arr)
+n = len(arr)
 sub = [20,30,40]
 m = len(sub)
 
