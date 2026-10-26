@@ -58,7 +58,7 @@ s1 = {1,2,3,4,5}
 s2 = {4,5,6,7,8}
 print(f"Union -> {s1 | s2}")              # | -> can be used as union 
 print(f"UINTERSECTION -> { s1 & s2}")     # & -> can be used as intersection 
-print(f"difference:={s2- s2}")            # - -> can be used as  difference
+print(f"difference:={s1- s2}")            # - -> can be used as  difference
 print(f"symmetric_difference:={s1 ^ s2}") # ^ -> can be used as symmectric difference
 
 ##frozenset 
@@ -84,11 +84,14 @@ You can still perform standard mathematical operations that return a **new** set
 * `set1.union(set2)`
 * `set1.intersection(set2)`
 * `set1.difference(set2)`"""
-
+""" 
 s = frozenset([1,2,3,4,5])                #
 s.add(6)
 s.remove(1)
 
-print(s)
+print(s) """
 
 
+s={"y"}
+for i in s:
+    print(i)
