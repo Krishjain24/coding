@@ -6,7 +6,7 @@
 5. sets are hetrogenous
 6. sets are Unordered.
 7. as sets don't have indexing we cannot replace anyvalue.
-8. No dublicate 
+8. No duplicate 
 """
 """s  ={1,2,3,4}
 print(type(s))
@@ -53,13 +53,13 @@ print(f" intersection:={s1.intersection(s2)}")
 print(f"difference:={s1.difference(s2)}")
 print(f"difference:={s2.difference(s1)}")
 print(f"symmetric_difference:={s1.symmetric_difference(s2)}")
-"""
+"""""" 
 s1 = {1,2,3,4,5}
 s2 = {4,5,6,7,8}
 print(f"Union -> {s1 | s2}")              # | -> can be used as union 
 print(f"UINTERSECTION -> { s1 & s2}")     # & -> can be used as intersection 
 print(f"difference:={s1- s2}")            # - -> can be used as  difference
-print(f"symmetric_difference:={s1 ^ s2}") # ^ -> can be used as symmectric difference
+print(f"symmetric_difference:={s1 ^ s2}") # ^ -> can be used as symmectric difference """
 
 ##frozenset 
 """
@@ -92,6 +92,13 @@ s.remove(1)
 print(s) """
 
 
-s={"y"}
-for i in s:
-    print(i)
+# s={"y"}
+# for i in s:
+#     print(i)
+
+""" s={1,2,3,4,5,6,7,8,9}
+p={2,3,5}
+q={2,3,5}
+if p==q:
+    print("jeet gaye")
+     """

@@ -42,3 +42,46 @@ print(ans) """
             return False
 print(function("()"))
  """
+""" 
+nums1 = [1,2,3,0,0,0]
+
+for i in range(3):
+    nums1.pop(-1)
+print(nums1) """
+""" 
+nums1 = [1,2,3,0,0,0] 
+m = 3
+nums2 = [2,5,6]
+n = 3
+
+for i in range(n):
+    nums1.pop(-1)
+for i in range(n):
+    nums1.append(nums2[i])
+nums1.sort()
+print(nums1)
+
+ """
+
+""" s="1234"
+if s.isdecimal() or s.isdigit() or s.isnumeric():
+    print(True)
+else:
+    print(False) """
+
+def check(s:str) -> bool:
+    if not s.isalpha() :
+        if s.isdecimal() or s.isdigit() or s.isnumeric():
+            return True
+        if "."in s:
+            s.split()
+            for i in s:
+                if s in "1234567890" and s in ".":
+                    return True
+                else:
+                    return False
+        else:
+            return False
+    else:
+        return False
+print(check(".1"))

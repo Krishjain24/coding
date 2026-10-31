@@ -5,8 +5,8 @@
 #3.{}-> set ,dictionary
 
 ##1.List
-"""a=[]
-print(type(a))"""   #<class 'list'>
+a=[]
+print(type(a))   #<class 'list'>
 #heterogeneous nature-> you can store multiple data types
 """a=["harsh",28,True,12.2,print()]"""
 #INDEXING-> same as string
@@ -15,7 +15,7 @@ print(type(a))"""   #<class 'list'>
 print(l[1:4])"""  #[20, 30, 40]
 
 """l[0]=100000
-print(l)""" #[100000, 20, 30, 40, 50]
+print(l)""" #[100000, 20, 30, 40, 50]                                     
 
 ##loops on list:
 """l=[10,20,31,41,50]"""

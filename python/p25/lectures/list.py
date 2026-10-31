@@ -1,9 +1,9 @@
 ##list methods
-"""l=[]
+l=[]
 print(dir(list)) # to know all type of methods 
 
 l.sort()
-print(l)"""
+print(l)
     
 """help(list)"""  # to know all function with methods 
 
@@ -27,13 +27,15 @@ print(l)"""
 """a=[1,1,1,1,1,1,1,2,2,2,2,2,2,]
 print(a.count(1))"""
 
-##Q1.
-"""a=[10,20,30,40,50]
+##Q1.reverse the list without using reverse function 
+#normal method(single pointer )
+
+""" a=[10,20,30,40,50]
 b=[]
 for i in range (len(a)-1,-1,-1):
     b.append(a[i])
-print(b)
-"""
+print(b) """
+
 
 a=[10,20,30,40,50,60,70,80,90,100]
 temp=len(a)-1

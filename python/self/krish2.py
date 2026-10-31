@@ -32,3 +32,5 @@ if n.isalpha():
     print(f"uppercase:{large}& lowercase:{small}\nuppercase:{len(large)}& lowercase:{len(small)}")"""
 
 n=int(input("enter your number:->"))
+
+

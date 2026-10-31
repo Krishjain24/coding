@@ -1,25 +1,26 @@
 ##que 1. find the missing number:->(condition- only one number is missing)
 """l=[1,2,3,5,6,7]
-esum=0
-asum=0
+esum=0 #estimated sum
+asum=0 #actual sum 
 n=len(l)
 for i in l:
     asum=((n+1)(n+2))/2
     esum+=i
 print(f"the element missing is{asum-esum}")"""
 
-"""arr=[1,2,4,5]
+
+arr=[1,2,4,5]
 n=len(arr)
-og_n=n+1
+og_n=n+1 #original length after that missing number
 #og_sum =((og_n)*(og_n+1))//2
-og_sum=0
+og_sum=0 #original number
 for i in range(1,og_n+1):
-    og_sum+=1
+    og_sum+=i
 real_sum=0
 for elem in arr:
     real_sum+=elem
 missing=og_sum-real_sum
-print(missing)"""
+print(missing)
 
 ##Q2.check list is sorted in assending order 
 """l=[10,20,30,40,50]
