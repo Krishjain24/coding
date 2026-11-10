@@ -29,13 +29,13 @@ print(t.index(2))"""
 OPERATIOIN
 + -> two tuple are concateate
 """
-"""t1= (1,2)
+t1= (1,2)
 t2= (3,4)
 print(t1 + t2)
-print(t1*5)
-"""
+print(t2+t1*5+t2)
 
-t=(1,2,[1,2,3])
+
+""" t=(1,2,[1,2,3])
 t[2].append(100)
-print(t[2])
+print(t[2]) """
 

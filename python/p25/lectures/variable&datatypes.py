@@ -1,4 +1,5 @@
-#09/09/2026
+##class 1:variable & data types 
+# DATE:-> 09/09/2026
 ##comments
 """for single line use Hashtags-#
 # for multi line using docstrings- (""" """)
